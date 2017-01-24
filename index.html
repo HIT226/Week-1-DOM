@@ -2,55 +2,82 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Example DOM</title>
+  <title>Exam Markup Question</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
   <!-- Header -->
   <header class="nav_wrap">
-    <h1>HTML5 DOM Example</h1>
-    <nav class="main_nav">
+    <h1><a href="index.html">HTML5 Website <span>by Html5webtemplates.co.uk</span></a></h1>
+    <nav class="nav">
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Layouts</a></li>
-        <li><a href="#">Elements</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Links</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Main -->
-  <main>
+  <section class="outer_wrap">
     <header class="header">
       <h2>Lorem ipsum dolor</h2>
       <p>Faucibus neque adipiscing mi lorem semper blandit</p>
     </header>
-    <section class="content">
+    <div class="content_wrap">
+      <section class="content">
         <h3>Dolore Amet Consequat</h3>
         <p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo.</p>
-        <h4>Sed Magna Ornare</h4>
-        <p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo.</p>
         <video id="video_example" controls>
-          <source src="video/small.webm" type="video/webm">
-          <source src="video/small.mp4" type="video/mp4">
-          <source src="video/small.ogv" type="video/ogv">
+         <source src="video/small.webm" type="video/webm">
+         <source src="video/small.mp4" type="video/mp4">
+         <source src="video/small.ogv" type="video/ogv">
         </video>
+        <h3>Sed Magna Ornare</h3>
+        <p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo.</p>
+        <ul>
+          <li>Faucibus orci lobortis ac adipiscing integer.</li>
+          <li>Col accumsan arcu mi aliquet placerat.</li>
+          <li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
+          <li>Blandit massa non blandit tempor interdum.</li>
+          <li>Lacinia mattis arcu nascetur lobortis.</li>
+        </ul>
       </section>
-      <footer>
-        <h3>Want to learn more?</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </footer>
-  </main>
+
+
+      <section class="sidebar">
+        <section>
+          <h3>Magna Feugiat</h3>
+          <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
+          <footer>
+            <a href="#" class="button">Learn More</a>
+          </footer>
+        </section>
+        <hr />
+        <section>
+          <img src="http://placehold.it/400x250" alt="Placeholder image" />
+          <h3>Amet Lorem Tempus</h3>
+          <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+          <footer>
+            <a href="#" class="button">Learn More</a>
+          </footer>
+        </section>
+      </section>
+    </div>
+  </section>
 
   <!-- Footer -->
-  <footer id="site_footer">
-    <ul class="footer_nav">
+  <footer class="footer">
+    <ul class="footer__menu">
       <li><a href="#">FAQ</a></li>
       <li><a href="#">Terms of Use</a></li>
       <li><a href="#">Privacy</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
-    <p>&copy; Copyright. Example DOM page</p>
+    <span class="footer__copyright">
+      &copy; Copyright. All rights reserved. Design by <a href="http://www.html5webtemplates.co.uk">Responsive Web Templates</a>
+    </span>
   </footer>
 
 </body>
