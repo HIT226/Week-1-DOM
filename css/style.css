@@ -21,7 +21,10 @@ p{
 	line-height: 150%;}
 hr{
 	margin: 2em 0;}
-
+figure{
+  margin-left: 0;
+  margin-right: 0;
+}
 .button{
 	font-size: 0.8em;
 	background-color: transparent;
